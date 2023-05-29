@@ -16,6 +16,23 @@ Se podría correr en google colab, pero habría que dejar algunas celdas de ejec
 
 **Nota:** La interacción de los mapas se aprecia en el documento html o corriendo el código fuente.
 
+En la carpeta [data](/data) se encuentran los 6 archivos de entrada al proceso. 
+
+En la carpeta [data_to_check](/data_to_check) se encuentran los archivos de salida de datos a verificar posteriormente si fuera el caso.
+
+En la carpeta [data_result](/data_result) se encuentran los archivos finales, luego de todo el proceso y de los cuales se respondieron las cuestiones e hipótesis.
+
+El proyecto (para la corrida local) deberá tener la siguiente estructura:  
+/data_to_check  
+/data_result  
+airlines.csv  
+airports.csv  
+flights.csv  
+IATA_TZ_data.csv  
+International_Report_Passengers_2015.csv  
+States.csv  
+flight_analysis.ipynb
+
 **Temas tratados:**  
    - Carga, limpieza, transformación de datos
    - Análisis de los mismos
